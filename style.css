@@ -1,0 +1,83 @@
+#fondo{    
+    text-align: center;
+    /* height: 500px; */
+    background-image: url("img/rio.webp");
+    /* background-image: no-repeat;
+    background-image: center;  */
+    /* background-size:100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+ul li{
+   list-style: none;
+   font-family: 'Croissant One', cursive;
+   font-family: 'Dela Gothic One', cursive;
+}
+li{
+   margin-bottom: 50px;
+}
+a{
+   font-size: larger;
+   text-decoration: none;
+   color: black ;
+}
+
+form{text-align: center;}
+
+#tituloMedico{text-align:center;
+   background-color: darkgoldenrod;
+}
+
+#tituloPacientes{
+   text-align: center;
+   background-color: darkgreen;
+}
+
+#tablaMedica{
+   background-color: blueviolet;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#tablaPaciente{
+   background-color: darkgrey;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1{
+   text-transform: uppercase;
+   font-family: 'Croissant One', cursive;
+}
+#fondoMedicos{
+   text-align: center;
+   background-color: blueviolet;
+}
+#fondoPacientes{
+   background-color: darkgrey;
+   text-align: center;
+   
+}
+
+.my-button {
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .my-button:hover {
+   background-color: #45a07b;
+ }
+ 
+ .my-button:active {
+   background-color: #6a8e3e;
+ }
+
+ input{
+   margin-bottom: 10px;
+ }
