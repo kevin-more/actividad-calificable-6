@@ -1,20 +1,19 @@
-#fondo{    
-    text-align: center;
-    /* height: 500px; */
-    background-image: url("img/rio.webp");
-    /* background-image: no-repeat;
-    background-image: center;  */
-    /* background-size:100%; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+.fondo{    
+      text-align: center;
+      color: rgb(209, 203, 203);
+      background-image: url("img/lago2.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+   }
+#pie{
+   color: black;
 }
 
 ul li{
    list-style: none;
    font-family: 'Croissant One', cursive;
    font-family: 'Dela Gothic One', cursive;
+   /* display:inline-block; */
 }
 li{
    margin-bottom: 50px;
