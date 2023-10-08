@@ -1,12 +1,18 @@
-.fondo{    
+.fondo{
+      background-position: center;
       text-align: center;
       color: rgb(209, 203, 203);
       background-image: url("img/lago2.jpg");
       background-repeat: no-repeat;
       background-size:cover;
    }
-#pie{
+.pie{
    color: black;
+   background-color: rgb(72, 129, 146);
+   position:absolute;
+   bottom: 0;
+   width: 100%;
+
 }
 
 ul li{
