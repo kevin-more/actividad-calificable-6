@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro medico</title>
+    <link rel="stylesheet" href="/STYLE/style.css">
+</head>
+<body id="tituloPacientes"><br><br><br><br><br><br><br><br><br>
+    <h1>FORMULARIO DE REGISTRO DE PACIENTES</h1>
+    <form id="form-Pacientes">
+        <label for="nombre"><b>Nombre</b></label><br>
+        <input type="text" placeholder="ingrese su nombre" id="nombre"><br>
+        <label for="apellido"><b>Apellido</b></label><br>
+        <input type="text" placeholder="ingrese su apellido" id="apellido"><br>
+        <label for="edad"><b>edad</b></label><br>
+        <input type="number" placeholder="ingrese edad" id="edad"><br>
+        <label for=""><b>Numero de cedula</b></label><br>
+        <input type="number" placeholder="ingrese su cedula" id="cedula"><br>
+        <label for="correo"><b>correo</b></label><br>
+        <input type="email" placeholder="ingrese su correo" id="correo" required><br>
+        <label for="especialidad"><b>especialidad requeridad</b></label><br>
+        <select name="especialidad" id="especialidad">
+        <option value="">selecione la especialidad</option>
+        <option value="cardiología">cardiología</option>
+        <option value="nutricion">nutricion</option>
+        <option value="rehabilitacion fisica">rehabilitacion fisica</option>
+        <option value="dermatologia">dermatologia</option>
+        <option value="medicina interna">medicina interna</option>
+        <option value="medicina general">medicina general</option>
+        </select><br><br>
+        <input type="submit" class="my-button" value="enviar">
+    </form>
+    <button class="my-button"><a class="my-button" href="/index.html">volver</a></button>
+    <footer>
+        <h3>realizado por Kevin Moreira</h3>
+        <p>correo : kvmoreira@gmail.com</p>
+        <p>contacto : 3108858245</p>
+    </footer>
+</body>
+</html>
